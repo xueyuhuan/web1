@@ -45,9 +45,9 @@
                 <p><el-button type="primary" size="mini" icon="el-icon-printer" circle></el-button> +0 (1) 234 567 89</p>
                 <p><el-button type="primary" size="mini" icon="el-icon-message" circle></el-button> service@thebrakekits.com</p>
                 <div class="link">
-                    <el-link :underline="false" href="https://www.facebook.com/Delpa-Technology-1730269357089874/"><i class="fa fa-facebook"></i></el-link>
-                    <el-link :underline="false" href="https://www.youtube.com/channel/UCLQod3j4oW7XV_-m5nYUN6A"><i class="fa fa-youtube-play"></i></el-link>
-                    <el-link :underline="false" href="https://www.instagram.com/topex_brake_kits/"><i class="fa fa-instagram"></i></el-link>
+                    <el-link :underline="false" target="_blank" href="https://www.facebook.com/Delpa-Technology-1730269357089874/"><i class="fa fa-facebook"></i></el-link>
+                    <el-link :underline="false" target="_blank" href="https://www.youtube.com/channel/UCLQod3j4oW7XV_-m5nYUN6A"><i class="fa fa-youtube-play"></i></el-link>
+                    <el-link :underline="false" target="_blank" href="https://www.instagram.com/topex_brake_kits/"><i class="fa fa-instagram"></i></el-link>
                 </div>
             </li>
         </ul>

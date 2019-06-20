@@ -5,15 +5,19 @@ import Index from './views/index.vue'
 Vue.use(Router)
 
 export default new Router({
-  routes: [
-    {
-      path: '/',
-      name: 'index',
-      component: Index
-    },
-    {
-      path: '/about-us',
-      component: () => import(/* webpackChunkName: "about" */ './views/AboutUs.vue')
-    }
-  ]
+    routes: [
+        {
+            path: '/',
+            name: 'index',
+            component: Index
+        },
+        {
+            path: '/about-us',
+            component: () => import(/* webpackChunkName: "about-us" */ './views/AboutUs.vue')
+        },
+        {
+            path:'/shipping-info',
+            component:()=>import('./views/ShippingInfo.vue')
+        }
+    ]
 })

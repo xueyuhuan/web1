@@ -20,6 +20,10 @@ export default new Router({
             component:()=>import('./views/FAQ')
         },
         {
+            path:'/contact-us',
+            component:()=>import('./views/ContactUs')
+        },
+        {
             path: '/about-us',
             component: () => import(/* webpackChunkName: "about-us" */ './views/AboutUs.vue')
         },

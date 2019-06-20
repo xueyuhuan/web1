@@ -64,7 +64,7 @@
                     },
                     {
                         name:'Contact Us',
-                        url:''
+                        url:'Contact-Us'
                     },
                     {
                         name:'Blog',

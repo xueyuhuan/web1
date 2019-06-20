@@ -51,14 +51,5 @@
 </script>
 
 <style lang="scss">
-    .el-collapse-item__header{
-        background: #14151b;
-        color: #fff;
-    }
-    .el-collapse-item__wrap{
-        background: #14151b;
-        p{
-            color: #ccc;
-        }
-    }
+
 </style>

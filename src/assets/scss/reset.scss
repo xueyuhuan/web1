@@ -29,3 +29,14 @@ a{
 em,i{
   font-style: normal;
 }
+//element
+.el-collapse-item__header{
+  background: #14151b;
+  color: #fff;
+}
+.el-collapse-item__wrap{
+  background: #14151b;
+  p{
+    color: #ccc;
+  }
+}

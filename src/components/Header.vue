@@ -60,7 +60,7 @@
                     },
                     {
                         name:'FAQ',
-                        url:''
+                        url:'FAQ'
                     },
                     {
                         name:'Contact Us',

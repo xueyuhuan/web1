@@ -56,7 +56,7 @@
                 nav:[
                     {
                         name:'My Account',
-                        url:''
+                        url:'My-Account'
                     },
                     {
                         name:'FAQ',

@@ -3,6 +3,7 @@
         <Header></Header>
         <router-view/>
         <Footer></Footer>
+        <el-backtop></el-backtop>
     </div>
 </template>
 

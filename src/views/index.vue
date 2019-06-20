@@ -5,7 +5,7 @@
             <div class="content">
                 <search-form></search-form>
                 <div class="right">
-                    <el-carousel type="card" :interval="10000" height="214">
+                    <el-carousel type="card" :interval="10000" height="214px">
                         <el-carousel-item>
                             <img src="../assets/img/carousel01.jpg" alt=""/>
                         </el-carousel-item>
@@ -67,7 +67,7 @@
             @include flex(flex-start,flex-start);
             .right{
                 flex: 1;
-                padding-left: 20px;
+                padding-left: 22px;
                 .el-carousel{
                     width: 100%;
                     margin: 40px 0;

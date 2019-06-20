@@ -11,9 +11,9 @@ export default new Router({
       name: 'index',
       component: Index
     },
-    // {
-    //   path: '/about',
-    //   component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
-    // }
+    {
+      path: '/about-us',
+      component: () => import(/* webpackChunkName: "about" */ './views/AboutUs.vue')
+    }
   ]
 })

@@ -35,7 +35,7 @@
                 <h4>policies</h4>
                 <p><router-link to="refund-policy"><el-link><i class="el-icon-arrow-right"></i> Refund Policy</el-link></router-link></p>
                 <p><router-link to="terms-conditions"><el-link><i class="el-icon-arrow-right"></i> Terms and Conditions</el-link></router-link></p>
-                <p><el-link><i class="el-icon-arrow-right"></i> Privacy Policy</el-link></p>
+                <p><router-link to="privacy-policy"><el-link><i class="el-icon-arrow-right"></i> Privacy Policy</el-link></router-link></p>
             </li>
             <li>
                 <h4>contact us</h4>

@@ -30,6 +30,10 @@ export default new Router({
         {
             path:'/terms-conditions',
             component:()=>import('./views/TermsConditions')
+        },
+        {
+            path:'/privacy-policy',
+            component:()=>import('./views/PrivacyPolicy')
         }
     ]
 })

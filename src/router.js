@@ -22,6 +22,10 @@ export default new Router({
         {
             path:'/service-commitment',
             component:()=>import('./views/ServiceCommitment')
+        },
+        {
+            path:'/refund-policy',
+            component:()=>import('./views/RefundPolicy')
         }
     ]
 })

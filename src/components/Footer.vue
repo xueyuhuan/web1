@@ -29,7 +29,7 @@
                 <p><span>4</span>Limited-lifetime warranty</p>
                 <h4>infometion center</h4>
                 <p><router-link to="/shipping-info"><el-link><i class="el-icon-arrow-right"></i> Shipping Info</el-link></router-link></p>
-                <p><el-link><i class="el-icon-arrow-right"></i> Service Commitment</el-link></p>
+                <p><router-link to="/service-commitment"><el-link><i class="el-icon-arrow-right"></i> Service Commitment</el-link></router-link></p>
             </li>
             <li>
                 <h4>policies</h4>

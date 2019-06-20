@@ -18,6 +18,10 @@ export default new Router({
         {
             path:'/shipping-info',
             component:()=>import('./views/ShippingInfo.vue')
+        },
+        {
+            path:'/service-commitment',
+            component:()=>import('./views/ServiceCommitment')
         }
     ]
 })

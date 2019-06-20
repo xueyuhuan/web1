@@ -15,7 +15,7 @@
                     accessories for cars,trucks,<br/>
                     and sports-type multifunction<br/>
                     vehicles.</p>
-                <el-link>READ MORE</el-link>
+                <router-link to="about-us"><el-link>READ MORE</el-link></router-link>
             </li>
             <li>
                 <h4>product features</h4>

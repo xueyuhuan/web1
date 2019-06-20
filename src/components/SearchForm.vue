@@ -46,6 +46,9 @@
                 modelList:['A4','A5','A5 Quattro','R8'],
                 subModelList:['318mm Front Disc','338mm Front Disc|330mm Rear Disc']
             }
+        },
+        methods:{
+
         }
     }
 </script>

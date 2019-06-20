@@ -26,6 +26,10 @@ export default new Router({
         {
             path:'/refund-policy',
             component:()=>import('./views/RefundPolicy')
+        },
+        {
+            path:'/terms-conditions',
+            component:()=>import('./views/TermsConditions')
         }
     ]
 })

@@ -4,6 +4,7 @@
 html{
   height: 100%;
   box-sizing: border-box;
+  scroll-behavior:smooth
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -15,6 +16,7 @@ body{
   color: #333;
   -webkit-font-smoothing: antialiased;
   margin: 0;
+  scroll-behavior:smooth
 }
 input,button,select,textarea{outline:none;}
 ul,li{

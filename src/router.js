@@ -4,12 +4,21 @@ import Index from './views/index.vue'
 
 Vue.use(Router)
 
-export default new Router({
+const router = new Router({
     routes: [
         {
             path: '/',
             name: 'index',
             component: Index
+        },
+        {
+            path:'*',
+            redirect:'/404'
+        },
+        {
+            path:'/404',
+            component:()=>import('./views/Blank'),
+            meta: { blank: true }
         },
         {
             path:'/my-account',
@@ -56,5 +65,14 @@ export default new Router({
             path:'/privacy-policy',
             component:()=>import('./views/PrivacyPolicy')
         }
-    ]
+    ],
+    scrollBehavior (to, from, savedPosition) {
+        if (savedPosition) {
+            return savedPosition
+        } else {
+            return { x: 0, y: 500 }
+        }
+    }
 })
+
+export default router

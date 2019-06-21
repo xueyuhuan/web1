@@ -24,7 +24,7 @@
             </el-select>
         </el-form-item>
         <el-form-item>
-            <el-button type="primary">Search</el-button>
+            <el-button disabled type="primary">Search</el-button>
         </el-form-item>
     </el-form>
 </template>

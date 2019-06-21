@@ -55,6 +55,7 @@
 
 <style lang="scss" scoped>
     .form{
+        flex: none;
         width: 268px;
         background: #333333;
         text-align: center;

@@ -50,6 +50,26 @@ export default new Vuex.Store({
               tags:['Halloween'],
               author:'Bella Wang'
           },
+      ],
+      product:[
+          {
+              name:'Brake Rotors',
+              img:'/product/1.png',
+              des:'FRONT Premium Grade OE 282 mm [2] Rotors Set CBO200340 [ for Acura ILX Honda Accord Coupe Sedan Civic CR-V Element ]',
+              price:72.32,
+          },
+          {
+              name:'Brake Rotors',
+              img:'/product/1.png',
+              des:'FRONT Premium Grade OE 282 mm [2] Rotors Set CBO200340 [ for Acura ILX Honda Accord Coupe Sedan Civic CR-V Element ]',
+              price:72.32,
+          },
+          {
+              name:'Brake Rotors',
+              img:'/product/1.png',
+              des:'FRONT Premium Grade OE 282 mm [2] Rotors Set CBO200340 [ for Acura ILX Honda Accord Coupe Sedan Civic CR-V Element ]',
+              price:72.32,
+          },
       ]
   },
   mutations: {

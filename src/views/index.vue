@@ -39,10 +39,16 @@
             </div>
         </el-tab-pane>
         <el-tab-pane label="Brake Rotors">
-            <search-form></search-form>
+            <div class="content">
+                <search-form></search-form>
+                <product-list></product-list>
+            </div>
         </el-tab-pane>
         <el-tab-pane label="Brake Pads">
-            <search-form></search-form>
+            <div class="content">
+                <search-form></search-form>
+                <product-list></product-list>
+            </div>
         </el-tab-pane>
     </el-tabs>
 </template>

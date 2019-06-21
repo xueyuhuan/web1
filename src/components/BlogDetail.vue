@@ -6,11 +6,10 @@
         <div class="main">
             <div slot="default">
                 <div class="content" :class="{ellipsis:type==='list'}" v-html="data.content"></div>
-                <router-link v-if="type==='list'" to="/blog/detail"><el-link type="primary">Read More</el-link></router-link>
+                <router-link v-if="type==='list'" :to="'/blog-detail/'+index"><el-link type="primary">Read More</el-link></router-link>
             </div>
             <img :src="data.img" alt=""/>
         </div>
-
         <ul v-if="data.tags.length>0">
             <li v-for="(i,index) in data.tags" :key="index"><el-tag size="small" effect="plain">{{i}}</el-tag></li>
         </ul>
@@ -22,6 +21,7 @@
         name: "BlogDetail",
         props: {
             data:Object,
+            index:Number,
             type:String,
         }
     }

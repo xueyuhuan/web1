@@ -56,19 +56,19 @@
                 nav:[
                     {
                         name:'My Account',
-                        url:'My-Account'
+                        url:'/My-Account'
                     },
                     {
                         name:'FAQ',
-                        url:'FAQ'
+                        url:'/FAQ'
                     },
                     {
                         name:'Contact Us',
-                        url:'Contact-Us'
+                        url:'/Contact-Us'
                     },
                     {
                         name:'Blog',
-                        url:'Blog'
+                        url:'/Blog'
                     },
                 ],
                 search:'',

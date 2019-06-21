@@ -15,7 +15,7 @@
                     accessories for cars,trucks,<br/>
                     and sports-type multifunction<br/>
                     vehicles.</p>
-                <router-link to="about-us"><el-link>READ MORE</el-link></router-link>
+                <router-link to="/about-us"><el-link>READ MORE</el-link></router-link>
             </li>
             <li>
                 <h4>product features</h4>
@@ -28,14 +28,14 @@
                 <p><span>3</span>OE fitment guaranteed</p>
                 <p><span>4</span>Limited-lifetime warranty</p>
                 <h4>infometion center</h4>
-                <p><router-link to="shipping-info"><el-link><i class="el-icon-arrow-right"></i> Shipping Info</el-link></router-link></p>
-                <p><router-link to="service-commitment"><el-link><i class="el-icon-arrow-right"></i> Service Commitment</el-link></router-link></p>
+                <p><router-link to="/shipping-info"><el-link><i class="el-icon-arrow-right"></i> Shipping Info</el-link></router-link></p>
+                <p><router-link to="/service-commitment"><el-link><i class="el-icon-arrow-right"></i> Service Commitment</el-link></router-link></p>
             </li>
             <li>
                 <h4>policies</h4>
-                <p><router-link to="refund-policy"><el-link><i class="el-icon-arrow-right"></i> Refund Policy</el-link></router-link></p>
-                <p><router-link to="terms-conditions"><el-link><i class="el-icon-arrow-right"></i> Terms and Conditions</el-link></router-link></p>
-                <p><router-link to="privacy-policy"><el-link><i class="el-icon-arrow-right"></i> Privacy Policy</el-link></router-link></p>
+                <p><router-link to="/refund-policy"><el-link><i class="el-icon-arrow-right"></i> Refund Policy</el-link></router-link></p>
+                <p><router-link to="/terms-conditions"><el-link><i class="el-icon-arrow-right"></i> Terms and Conditions</el-link></router-link></p>
+                <p><router-link to="/privacy-policy"><el-link><i class="el-icon-arrow-right"></i> Privacy Policy</el-link></router-link></p>
             </li>
             <li>
                 <h4>contact us</h4>

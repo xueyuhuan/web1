@@ -28,6 +28,11 @@ export default new Router({
             component:()=>import('./views/Blog')
         },
         {
+            path:'/blog-detail/:id',
+            component:()=>import('./views/BlogDetail'),
+            props: true
+        },
+        {
             path: '/about-us',
             component: () => import(/* webpackChunkName: "about-us" */ './views/AboutUs.vue')
         },

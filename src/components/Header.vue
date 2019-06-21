@@ -68,7 +68,7 @@
                     },
                     {
                         name:'Blog',
-                        url:''
+                        url:'Blog'
                     },
                 ],
                 search:'',

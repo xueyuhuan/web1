@@ -19,7 +19,7 @@
         mounted(){
             let _this=this
             window.addEventListener('scroll',function(){
-                let top = document.documentElement.scrollTop || document.body.scrollTop || window.pageYOffset
+                let top = document.documentElement.scrollTop || document.body.scrollTop || window.pageYOffset;
                 _this.scrollTag = top >= 300;
             })
         }

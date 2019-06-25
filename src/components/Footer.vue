@@ -51,7 +51,7 @@
                 </div>
             </li>
         </ul>
-        <div class="bottom">© 2019 DELPA, INC. All Rights Reserved</div>
+        <div class="bottom">© 2019.6.21 DELPA, INC. All Rights Reserved</div>
     </footer>
 </template>
 
